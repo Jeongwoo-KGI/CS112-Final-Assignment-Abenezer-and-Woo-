@@ -1,5 +1,5 @@
 
-## Regression Set 1 (Table 2)
+## Regression Set 1 [Exact replication of Table 2]
 
 attach(WVSData)
 
@@ -38,7 +38,7 @@ library(stargazer)
 #(below: replicating with less variables)
 
 
-## Regression Set 2
+## Regression Set 2 [For the multi-level-regression analysis with less variables]
 
 ml7 <- lmer(data=WVSData, trust  ~ zone + educ + income + village )
 
